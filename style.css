@@ -1,11 +1,7 @@
 /* PC、スマホ共通スタイル */
 body {
-  font-family: "Helvetica Neue",
-    Arial,
-    "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans",
-    Meiryo,
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont,
+               "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 /* ==============
@@ -14,8 +10,6 @@ PC用スタイル
 /* 横幅設定 */
 @media screen and (min-width: 980px) {
   body {
-    /* max-width: 960px;
-    height: 1220px; */
     max-width: 1000px;
     min-width: 1000px;
     margin: 0 auto 0 auto;
@@ -266,9 +260,7 @@ PC用スタイル
   }
   .midasi-left > h1 {
     color: white;
-    font-family: Franklin Gothic Medium;
     font-size: 48px;
-    font-style: italic;
     font-weight: normal;
     position: absolute;
     margin: 0;
@@ -430,9 +422,7 @@ PC用スタイル
   }
   .midasi-right > h1 {
     color: white;
-    font-family: Franklin Gothic Medium;
     font-size: 48px;
-    font-style: italic;
     font-weight: normal;
     position: absolute;
     margin: 0;
@@ -479,10 +469,10 @@ PC用スタイル
 
   .tokuten > div > p {
     white-space: nowrap;
-    margin: 0 0 50px 0;
-    font-size: 64px;
-    font-family: HGPSoeiKakugothicUB;
-    -webkit-text-stroke: 2px white;
+    margin: 0 0 20px 0;
+    font-size: 54px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px white;
     text-decoration: underline;
     text-decoration-thickness: 35px;
     text-underline-offset: -10px;
@@ -507,8 +497,8 @@ PC用スタイル
 
   .tokuten-midashi > p {
     position: absolute;
-    top: 425px;
-    left: 230px;
+    top: 360px;
+    left: 180px;
   }
 
   .tokuten-midashi > img {
@@ -549,7 +539,7 @@ PC用スタイル
   #koumoku {
     width: 150px;
     font-size: 32px;
-    font-family: Franklin Gothic Medium;
+    
     text-align: center;
     padding: 0;
     border-left: 20px solid #0B0085;
@@ -557,19 +547,19 @@ PC用スタイル
   }
   #naiyou {
     font-size: 32px;
-    font-family: Franklin Gothic Medium;
+    
     text-align: center;
     border-bottom: 3px solid #0B0085;
   }
   #naiyou-jusyo {
     font-size: 24px;
-    font-family: Franklin Gothic Medium;
+    
     text-align: center;
     border-bottom: 3px solid #0B0085;
   }
   #naiyou-jigyo {
     font-size: 28px;
-    font-family: Franklin Gothic Medium;
+    
     text-align: center;
     border-bottom: 3px solid #0B0085;
   }
@@ -1016,13 +1006,10 @@ PC用スタイル
   }
   .midasi-left > h1 {
     color: white;
-    font-family: Franklin Gothic Medium;
     font-size: 6vw;
-    font-style: italic;
     font-weight: normal;
     position: absolute;
     margin: 0;
-    top: 2vw;
     left: 20vw;
   }
 
@@ -1039,7 +1026,7 @@ PC用スタイル
     width: 5vw;
     height: 8vw;
     position: absolute;
-    top: 3vw;
+    top: 4.5vw;
     right: -5.5vw;
   }
 
@@ -1053,7 +1040,7 @@ PC用スタイル
     width: 5vw;
     height: 8vw;
     position: absolute;
-    top: 3vw;
+    top: 4.5vw;
     left: -6vw;
   }
 
@@ -1225,13 +1212,10 @@ PC用スタイル
   }
   .midasi-right > h1 {
     color: white;
-    font-family: Franklin Gothic Medium;
     font-size: 6vw;
-    font-style: italic;
     font-weight: normal;
     position: absolute;
     margin: 0;
-    top: 2vw;
     left: 26vw;
   }
 
@@ -1248,7 +1232,7 @@ PC用スタイル
     width: 5vw;
     height: 8vw;
     position: absolute;
-    top: 3vw;
+    top: 4.5vw;
     right: -5.5vw;
   }
   .midasi-right > h1::before {
@@ -1261,7 +1245,7 @@ PC用スタイル
     width: 5vw;
     height: 8vw;
     position: absolute;
-    top: 3vw;
+    top: 4.5vw;
     left: -6vw;
   }
   .tokuten-midashi {
@@ -1288,12 +1272,12 @@ PC用スタイル
   }
   .tokuten > div > p {
     white-space: nowrap;
-    margin: 0 0 min(6vw, 40px) 0;
-    font-size: min(6vw, 56px);
-    font-family: HGPSoeiKakugothicUB;
-    -webkit-text-stroke: 0.15vw white;
+    margin: 0 0 min(6vw, 20px) 0;
+    font-size: min(5vw, 48px);
+    font-weight: bold;
+    -webkit-text-stroke: 0.05vw white;
     text-decoration: underline;
-    text-decoration-thickness: min(4.5vw, 35px);
+    text-decoration-thickness: min(3.5vw, 30px);
     text-underline-offset: -1.5vw;
     width: 40vw;
   }
@@ -1375,7 +1359,7 @@ PC用スタイル
   #koumoku {
     width: 20vw;
     font-size: 4vw;
-    font-family: Franklin Gothic Medium;
+    
     text-align: center;
     padding: 0;
     border-left: 3vw solid #0B0085;
@@ -1383,19 +1367,19 @@ PC用スタイル
   }
   #naiyou {
     font-size: 4vw;
-    font-family: Franklin Gothic Medium;
+    
     text-align: center;
     border-bottom: 3px solid #0B0085;
   }
   #naiyou-jusyo {
     font-size: 3vw;
-    font-family: Franklin Gothic Medium;
+    
     text-align: center;
     border-bottom: 3px solid #0B0085;
   }
   #naiyou-jigyo {
     font-size: 3vw;
-    font-family: Franklin Gothic Medium;
+    
     text-align: center;
     border-bottom: 3px solid #0B0085;
   }
