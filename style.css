@@ -1119,9 +1119,9 @@ PC用スタイル
     flex-direction: column;
   }
   .point-row-midasi > h2 {
-    height: 60px;
+    height: min(16vw, 60px);
     background-repeat: no-repeat;
-    padding-top: min(5vw, 5px);
+    padding-top: min(3.5vw, 5px);
     font-size: min(8vw, 35px);
     font-family: Arial;
     margin: 0;
