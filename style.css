@@ -1462,6 +1462,7 @@ PC用スタイル
 
   .contact-hissu {
     display: block;
+    text-wrap: nowrap;
     background-color: #FF0000;
     font-size: max(4vw, 20px);
     text-align: center;
@@ -1476,6 +1477,7 @@ PC用スタイル
   }
   .contact-nini {
     display: block;
+    text-wrap: nowrap;
     background-color: #0345C3;
     font-size: max(4vw, 20px);
     text-align: center;
