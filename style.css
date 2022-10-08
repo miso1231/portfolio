@@ -1462,11 +1462,10 @@ PC用スタイル
 
   .contact-hissu {
     display: block;
-    text-wrap: nowrap;
     background-color: #FF0000;
     font-size: max(4vw, 20px);
     text-align: center;
-    width: max(9vw, 48px);
+    width: max(11vw, 48px);
     font-family: HGGothicE;
     color: white;
     padding: 1.5vw;
@@ -1477,11 +1476,10 @@ PC用スタイル
   }
   .contact-nini {
     display: block;
-    text-wrap: nowrap;
     background-color: #0345C3;
     font-size: max(4vw, 20px);
     text-align: center;
-    width: max(9vw, 48px);
+    width: max(11vw, 48px);
     font-family: HGGothicE;
     color: white;
     padding: 1.5vw;
