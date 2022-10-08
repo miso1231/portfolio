@@ -743,7 +743,7 @@ PC用スタイル
 
 @media screen and (max-width: 979.99px) {
   body {
-    /* min-width: 360px; */
+    width: 100vw;
     margin: 0;
   }
   
@@ -753,10 +753,10 @@ PC用スタイル
     z-index: 20;
   }
   .footer-menu-sp {
-    width: 100%;
+    width: 100vw;
     display: flex;
+    justify-content: center;
     align-items: center;
-    box-shadow: 0 -5px 40px -25px #000000;
     position: fixed;
     bottom: 0;
     background-color: white;
@@ -771,7 +771,7 @@ PC用スタイル
 
   /* TOPページ用 */
   .footer-menu-sp > #top {
-    width: 50%;
+    width: 50vw;
     text-align: center;
     border-right: 1px dashed #000000;
   }
@@ -792,7 +792,7 @@ PC用スタイル
 
   /* メニュー用 */
   .footer-menu-sp > #hamburger {
-    width: 50%;
+    width: 50vw;
     text-align: center;
   }
   .footer-menu-sp > #hamburger > img {
@@ -1004,7 +1004,7 @@ PC用スタイル
     position: relative;
     background-color: #0B0085;
     border-radius: 0 20vw 0 0;
-    box-shadow: 0px 10px 10px 1px #021E80;
+    box-shadow: 0px 5px 5px 1px #021E80;
     width: 90vw;
     height: 15vw;
     margin-top: 2vw;
@@ -1211,7 +1211,7 @@ PC用スタイル
     position: relative;
     background-color: #0B0085;
     border-radius: 20vw 0 0 0;
-    box-shadow: 0px 10px 10px 1px #021E80;
+    box-shadow: -2px 5px 5px 1px #021E80;
     width: 90vw;
     height: 15vw;
     margin-top: 2vw;
@@ -1465,7 +1465,7 @@ PC用スタイル
     background-color: #FF0000;
     font-size: max(4vw, 20px);
     text-align: center;
-    width: max(8vw, 48px);
+    width: max(9vw, 48px);
     font-family: HGGothicE;
     color: white;
     padding: 1.5vw;
@@ -1479,7 +1479,7 @@ PC用スタイル
     background-color: #0345C3;
     font-size: max(4vw, 20px);
     text-align: center;
-    width: max(8vw, 48px);
+    width: max(9vw, 48px);
     font-family: HGGothicE;
     color: white;
     padding: 1.5vw;
