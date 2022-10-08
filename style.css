@@ -1,7 +1,6 @@
 /* PC、スマホ共通スタイル */
 body {
-  font-family: -apple-system, BlinkMacSystemFont,
-               "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family:"Helvetica Neue", -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 /* ==============
