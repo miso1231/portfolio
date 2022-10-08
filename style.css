@@ -1,6 +1,6 @@
 /* PC、スマホ共通スタイル */
 body {
-  font-family:"Helvetica Neue", -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family:-apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-seif;
 }
 
 /* ==============
@@ -123,7 +123,7 @@ PC用スタイル
 
   #text1 {
     width: 730px;
-    font-family: Inter;
+    
     font-size: 48px;
     position: absolute;
     left: 0;
@@ -152,7 +152,7 @@ PC用スタイル
 
   #text2 {
     width: 730px;
-    font-family: Inter;
+    
     font-size: 64px;
     position: absolute;
     left: 0;
@@ -200,7 +200,7 @@ PC用スタイル
   #main-text1 > span {
     display: inline-block;
     font-size: 36px;
-    font-family: Inter;
+    
     margin-left: 10px;
     margin-bottom: 5px;
   }
@@ -217,7 +217,7 @@ PC用スタイル
   #main-text2 > span {
     display: inline-block;
     font-size: 36px;
-    font-family: Inter;
+    
     margin-left: 10px;
     margin-bottom: 5px;
   }
@@ -227,7 +227,7 @@ PC用スタイル
     top: 400px;
   }
   #line > img {
-    font-family: Inter;
+    
     color: white;
     position: absolute;
     left: 0;
@@ -237,7 +237,7 @@ PC用スタイル
   }
   #line > p {
     font-size: 40px;
-    font-family: Inter;
+    
     color: white;
     position: absolute;
     margin: 0;
@@ -307,7 +307,6 @@ PC用スタイル
     top: 50px;
     left: 18px;
     font-size: 96px;
-    font-family: Meiryo;
     font-weight: bold;
     color: white;
   }
@@ -608,21 +607,21 @@ PC用スタイル
   }
   .contact-label {
     font-size: 36px;
-    font-family: HGGothicE;
+    
   }
   .contact-label-24 {
     font-size: 24px;
-    font-family: HGGothicE;
+    
   }
   .contact-label-kibou {
     font-size: 24px;
-    font-family: HGGothicE;
+    
     margin-right: 50px;
   }
   .contact-hissu {
     background-color: #FF0000;
     font-size: 24px;
-    font-family: HGGothicE;
+    
     color: white;
     padding: 10px;
     margin: 5px 40px 5px 5px;
@@ -631,7 +630,7 @@ PC用スタイル
   .contact-nini {
     background-color: #0345C3;
     font-size: 24px;
-    font-family: HGGothicE;
+    
     color: white;
     padding: 10px;
     margin: 5px 40px 5px 5px;
@@ -887,7 +886,7 @@ PC用スタイル
   }
   #text1, #text2 {
     width: 55%;
-    font-family: Inter;
+    
     position: absolute;
     left: 0;
     right: 0;
@@ -953,7 +952,7 @@ PC用スタイル
     display: inline-block;
     white-space: nowrap;
     font-size: 5vw;
-    font-family: Inter;
+    
     margin-left: 0.6vw;
     margin-bottom: -1vw;
     transform: scale(0.7);
@@ -982,7 +981,7 @@ PC用スタイル
   }
   #line > p {
     font-size: 5vw;
-    font-family: Inter;
+    
     color: white;
     position: absolute;
     margin: 0;
@@ -1070,7 +1069,6 @@ PC用スタイル
     top: 6.5vw;
     left: 5vw;
     font-size: 8vw;
-    font-family: Meiryo;
     font-weight: bold;
     color: white;
   }
@@ -1086,7 +1084,7 @@ PC用スタイル
     z-index: 10;
   }
   .setumei {
-    width: 52vw;
+    width: 53vw;
     text-align: center;
     position: absolute;
     top: 10vw;
@@ -1123,7 +1121,7 @@ PC用スタイル
   .point-row-midasi > h2 {
     height: 60px;
     background-repeat: no-repeat;
-    padding-top: min(5vw, 8px);
+    padding-top: min(5vw, 5px);
     font-size: min(8vw, 35px);
     font-family: Arial;
     margin: 0;
@@ -1146,7 +1144,6 @@ PC用スタイル
     background-size: min(99%, 365px) min(17vw, 60px);
     max-width: 360px;
     padding-left: min(10vw, 27px);
-    padding-top: 5px;
     margin: 0 auto;
   }
   .point-two > .point-row-midasi > h2{
@@ -1154,7 +1151,6 @@ PC用スタイル
     background-size: min(99%, 365px) min(17vw, 60px);
     max-width: 360px;
     padding-left: min(10vw, 27px);
-    padding-top: 5px;
     margin: 0 auto;
   }
   .point-two > .point-row-midasi, .point-four > .point-row-midasi{
@@ -1169,7 +1165,6 @@ PC用スタイル
     background-size: min(99%, 365px) min(17vw, 60px);
     max-width: 360px;
     padding-left: min(10vw, 27px);
-    padding-top: 5px;
     margin: 0 auto;
   }
   .point-four > .point-row-midasi > h2{
@@ -1177,7 +1172,6 @@ PC用スタイル
     background-size: min(99%, 365px) min(17vw, 60px);
     max-width: 360px;
     padding-left: min(10vw, 27px);
-    padding-top: 5px;
     margin: 0 auto;
   }
 
@@ -1433,15 +1427,15 @@ PC用スタイル
   }
   .contact-label {
     font-size: 5vw;
-    font-family: HGGothicE;
+    
   }
   .contact-label-24 {
     font-size: 5vw;
-    font-family: HGGothicE;
+    
   }
   .contact-label-kibou {
     font-size: 5vw;
-    font-family: HGGothicE;
+    
     margin-right: 5vw;
   }
 
@@ -1457,7 +1451,7 @@ PC用スタイル
     font-size: max(4vw, 20px);
     text-align: center;
     width: max(10vw, 48px);
-    font-family: HGGothicE;
+    
     color: white;
     padding: 1.5vw;
     margin: 0 auto;
@@ -1472,7 +1466,7 @@ PC用スタイル
     font-size: max(4vw, 20px);
     text-align: center;
     width: max(10vw, 48px);
-    font-family: HGGothicE;
+    
     color: white;
     padding: 1.5vw;
     margin: 0 auto;
@@ -1502,7 +1496,6 @@ PC用スタイル
     margin-top: 3vw;
     width: 70vw;
     height: 50vw;
-    font-family: Noto Sans JP;
     border: none;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
