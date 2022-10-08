@@ -773,7 +773,7 @@ PC用スタイル
   .footer-menu-sp > #top > img {
     margin-bottom: -0.6vw;
     width: min(5vw, 24px);
-    height: min(10vw, 35px);
+    height: min(7vw, 35px);
   }
   
   #footer-return-top:link{
@@ -1010,6 +1010,7 @@ PC用スタイル
     font-weight: normal;
     position: absolute;
     margin: 0;
+    top: 1vw;
     left: 20vw;
   }
 
@@ -1216,6 +1217,7 @@ PC用スタイル
     font-weight: normal;
     position: absolute;
     margin: 0;
+    top: 1vw;
     left: 26vw;
   }
 
@@ -1533,7 +1535,7 @@ PC用スタイル
     justify-content: center;
     background-color: #012C80;
     margin: auto;
-    margin-bottom: min(12vw, 75px);
+    margin-bottom: min(13.5vw, 75px);
     font-family: Arial;
     color: white;
     font-size: 3.5vw;
