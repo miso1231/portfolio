@@ -1126,12 +1126,13 @@ PC用スタイル
     display: flex;
     justify-content: center;
     align-items: center;
-    height: min(16vw, 60px);
+    height: min(20vw, 70px);
     background-repeat: no-repeat;
     font-size: min(8vw, 35px);
     font-family: Arial;
-    margin: 0;
+    background-position-y: 0.8vw;
   }
+
   .point-row-midasi > p {
     margin: 1vw 0 0 0;
     padding: 1.5vw;
