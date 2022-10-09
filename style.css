@@ -1015,6 +1015,7 @@ PC用スタイル
     font-weight: normal;
     position: absolute;
     margin: 0;
+    top: 1vw;
     left: 20vw;
   }
 
@@ -1224,6 +1225,7 @@ PC用スタイル
     font-weight: normal;
     position: absolute;
     margin: 0;
+    top: 1vw;
     left: 26vw;
   }
 
