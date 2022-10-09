@@ -968,7 +968,9 @@ PC用スタイル
   
   #line {
     position: relative;
-    top: 43.5vw;
+    top: 46vw;
+    display: flex;
+    align-items: center;
   }
   #line > img {
     width: 43vw;
@@ -981,12 +983,11 @@ PC用スタイル
   }
   #line > p {
     font-size: 5vw;
-    
     color: white;
     position: absolute;
     margin: 0;
-    top: -0.5vw;
-    left: 37vw;
+    top: -3.6vw;
+    left: 39vw;
     z-index: 16;
     transform: scale(0.7);
     transform-origin: left;
@@ -1001,14 +1002,17 @@ PC用スタイル
     width: 90vw;
     height: 15vw;
     margin-top: 2vw;
+    
   }
   .midasi-left > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
     color: white;
     font-size: 6vw;
     font-weight: normal;
     position: absolute;
     margin: 0;
-    top: 1vw;
     left: 20vw;
   }
 
@@ -1025,7 +1029,7 @@ PC用スタイル
     width: 5vw;
     height: 8vw;
     position: absolute;
-    top: 4.5vw;
+    top: 3.5vw;
     right: -5.5vw;
   }
 
@@ -1039,7 +1043,7 @@ PC用スタイル
     width: 5vw;
     height: 8vw;
     position: absolute;
-    top: 4.5vw;
+    top: 3.5vw;
     left: -6vw;
   }
 
@@ -1119,9 +1123,11 @@ PC用スタイル
     flex-direction: column;
   }
   .point-row-midasi > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: min(16vw, 60px);
     background-repeat: no-repeat;
-    padding-top: min(3.5vw, 5px);
     font-size: min(8vw, 35px);
     font-family: Arial;
     margin: 0;
@@ -1205,6 +1211,9 @@ PC用スタイル
     margin-right: 1vw;
   }
   .midasi-right > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
     color: white;
     font-size: 6vw;
     font-weight: normal;
@@ -1227,7 +1236,7 @@ PC用スタイル
     width: 5vw;
     height: 8vw;
     position: absolute;
-    top: 4.5vw;
+    top: 3.5vw;
     right: -5.5vw;
   }
   .midasi-right > h1::before {
@@ -1240,7 +1249,7 @@ PC用スタイル
     width: 5vw;
     height: 8vw;
     position: absolute;
-    top: 4.5vw;
+    top: 3.5vw;
     left: -6vw;
   }
   .tokuten-midashi {
