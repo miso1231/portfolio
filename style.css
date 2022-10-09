@@ -1031,7 +1031,8 @@ PC用スタイル
     width: 5vw;
     height: 8vw;
     position: absolute;
-    top: 3.5vw;
+    top: 50%;
+    transform: translateY(-50%);
     right: -5.5vw;
   }
 
@@ -1045,7 +1046,8 @@ PC用スタイル
     width: 5vw;
     height: 8vw;
     position: absolute;
-    top: 3.5vw;
+    top: 50%;
+    transform: translateY(-50%);
     left: -6vw;
   }
 
@@ -1222,7 +1224,6 @@ PC用スタイル
     font-weight: normal;
     position: absolute;
     margin: 0;
-    top: 1vw;
     left: 26vw;
   }
 
@@ -1239,7 +1240,8 @@ PC用スタイル
     width: 5vw;
     height: 8vw;
     position: absolute;
-    top: 3.5vw;
+    top: 50%;
+    transform: translateY(-50%);
     right: -5.5vw;
   }
   .midasi-right > h1::before {
@@ -1252,7 +1254,8 @@ PC用スタイル
     width: 5vw;
     height: 8vw;
     position: absolute;
-    top: 3.5vw;
+    top: 50%;
+    transform: translateY(-50%);
     left: -6vw;
   }
   .tokuten-midashi {
