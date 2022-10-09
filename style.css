@@ -1130,7 +1130,7 @@ PC用スタイル
     background-repeat: no-repeat;
     font-size: min(8vw, 35px);
     font-family: Arial;
-    background-position-y: 0.8vw;
+    background-position-y: min(1vw, 5px);
   }
 
   .point-row-midasi > p {
