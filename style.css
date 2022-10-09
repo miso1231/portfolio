@@ -1277,7 +1277,7 @@ PC用スタイル
   .tokuten > div > p {
     white-space: nowrap;
     margin: 0 0 min(6vw, 20px) 0;
-    font-size: min(5vw, 48px);
+    font-size: min(5.4vw, 56px);
     font-weight: bold;
     -webkit-text-stroke: 0.05vw white;
     text-decoration: underline;
