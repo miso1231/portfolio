@@ -474,7 +474,7 @@ PC用スタイル
     text-decoration: underline;
     text-decoration-thickness: 35px;
     text-underline-offset: -10px;
-    
+    text-decoration-skip-ink: none;
   }
   .tokuten1 > div {
     margin: 160px 0 0 140px;
@@ -1274,6 +1274,7 @@ PC用スタイル
     text-decoration: underline;
     text-decoration-thickness: min(3.5vw, 30px);
     text-underline-offset: -1.5vw;
+    text-decoration-skip-ink: none;
     width: 40vw;
   }
   .tokuten1 > div {
