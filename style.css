@@ -982,12 +982,12 @@ PC用スタイル
   }
   #line > p {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     font-size: 5vw;
     color: white;
     position: absolute;
     margin: 0;
-    top: -3vw;
+    /* top: -3vw; */
     left: 39vw;
     z-index: 16;
     transform: scale(0.7);
