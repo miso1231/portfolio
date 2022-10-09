@@ -1,6 +1,6 @@
 /* PC、スマホ共通スタイル */
 body {
-  font-family:-apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-seif;
+  font-family:-apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 /* ==============
@@ -952,7 +952,6 @@ PC用スタイル
     display: inline-block;
     white-space: nowrap;
     font-size: 5vw;
-    
     margin-left: 0.6vw;
     margin-bottom: -1vw;
     transform: scale(0.7);
@@ -982,11 +981,13 @@ PC用スタイル
     z-index: 16;
   }
   #line > p {
+    display: flex;
+    align-items: center;
     font-size: 5vw;
     color: white;
     position: absolute;
     margin: 0;
-    top: -3.6vw;
+    top: -3vw;
     left: 39vw;
     z-index: 16;
     transform: scale(0.7);
