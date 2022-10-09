@@ -956,6 +956,7 @@ PC用スタイル
     margin-bottom: -1vw;
     transform: scale(0.7);
     transform-origin: left;
+    width: 80vw;
   }
 
   #main-text2 {
