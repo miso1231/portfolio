@@ -1106,7 +1106,7 @@ PC用スタイル
   #point-blue, #point-green, #point-red, #point-yellow {
     position: absolute;
     top: 8vw;
-    left: 13vw;
+    left: 13.5vw;
     width: 25vw;
     height: 2.3vw;
     z-index: 9;
